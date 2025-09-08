@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela de Login</title>
+  <!-- conexão com o documento CSS -->
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <!--texto de boas vindas -->
+
+  <div class="texto-boas-vindas">
+    <h4>Bem vindo ao sistema de gestão de escolas</h4>
+    <p>
+      Um site diferenciado para unir pessoas, alunos, professores,
+      diretores e toda a comunidade escolar,
+      <br>
+      <b>vamos aprender a interpretar texto com inferência implícita!</b>
+    </p>
+  </div>
+
+  <!--botões de acessibilidade -->
+
+  <div id="acessibilidade" class="menu-acessibilidade">
+    <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao">
+      Acessibilidade
+    </button>
+    <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista ">
+      <button id="aumentar-fonte" class="btn btn-primary fw-bold">A +</button>
+      <button id="diminuir-fonte" class="btn btn-primary fw-bold">A -</button>
+    </div>
+  </div>
+
+  <!-- campo de login -->
+
+  <div class="tela-login">
+    <h1>Login</h1>
+    <input type="text" id="login" placeholder="Nome">
+    <br><br>
+    <input type="password" id="senha" placeholder="Senha">
+    <br><br>
+    <button id="enviar"> Enviar</button>
+  </div>
+
+  <!-- conexão com o documento javaScript -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

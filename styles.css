@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, cyan, yellow);
+}
+
+.tela-login {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+button {
+    background-color: dodgerblue;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+#aumentar-fonte {
+    background-color: orange;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+#botao-acessibilidade {
+    background-color: orange;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+#diminuir-fonte {
+    background-color: orange;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+#acessibilidade {
+
+    position: fixed;
+    left: 90%;
+    padding: 15px;
+}
+
+.texto-boas-vindas {
+    background-color: rgba(120, 12, 120, 0.3);
+    position: absolute;
+    top: 2%;
+    left: 30%;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.menu-acessibilidade {
+    position: fixed;
+    top: 2rem;
+    right: 5px;
+    z-index: 1000;
+}
+
+.rotacao-botao {
+    transform: rotate(-90deg);
+    transform-origin: right center;
+}
+
+.opcoes-acessibilidade{
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.opcoes-acessibilidade button {
+    margin-bottom: 5px;
+}
+
+.apresenta-lista {
+    display: none;
+}

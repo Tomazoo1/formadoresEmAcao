@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Último Bilhete</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f3f3f3;
+            padding: 20px;
+        }
+
+        .conteudo-bilhete {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005f73;
+        }
+
+        #interpretacao {
+            display: none;
+            margin-top: 20px;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="conteudo-bilhete">
+        <h1> O Último Bilhete</h1>
+        <p>Era fim de tarde e o velho senhor ainda olhava pela janela...</p>
+        <p>A moça da limpeza às vezes arrumava o bilhete...</p>
+        <p>O velho sorria pouco, mas naquele dia...</p>
+        <p>A neta entrou. Abraçou-o sem dizer uma palavra.</p>
+        <p>Depois, com as mãos tremendo, ele abriu o envelope.</p>
+
+        <button onclick="mostrarInterpretacao()">Ver interpretação</button>
+
+        <p id="interpretacao">
+            O bilhete, provavelmente escrito por alguém querido que partiu, representa
+            um momento significativo para o velho. Seus sorriso antes de ver quem chegava
+            mostra esperança e afeto, reforçando a ideia de que o conteúdo do envelope
+            tem forte valor emocional.
+        </p>
+    </div>
+
+
+    <script>
+        function mostrarInterpretacao() {
+            document.getElementById("interpretacao").style.display = "block";
+        };
+    </script>
+</body>
+
+</html>
